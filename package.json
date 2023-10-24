@@ -1,0 +1,34 @@
+{
+  "name": "serverlesscalculator",
+  "version": "1.0.0",
+  "description": "- aws configure\r - aws sts get-caller-identity\r - npm init",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopabandhupwhats/serverlessCalculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gopabandhupwhats/serverlessCalculator/issues"
+  },
+  "homepage": "https://github.com/gopabandhupwhats/serverlessCalculator#readme",
+  "type":"module",
+  "devDependencies": {
+    "serverless": "3.35.2",
+    "serverless-offline": "13.2.0",
+    "serverless-plugin-resource-tagging": "1.2.0",
+    "serverless-prune-plugin": "2.0.2"
+  },
+  "dependencies": {
+    "@elastic/ecs-winston-format": "1.3.1",
+    "aws-sdk": "^2.1477.0",
+    "aws-serverless-express": "3.4.0",
+    "body-parser": "1.20.2",
+    "express": "4.18.2",
+    "winston": "3.11.0"
+  }
+}

@@ -1,0 +1,13 @@
+service: sls-demo
+
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  region: ap-southeast-1
+  runtime: nodejs18.x
+  stage: ${opt:stage}
+
+functions:
+  myCuteApi:
+    handler: app.api
